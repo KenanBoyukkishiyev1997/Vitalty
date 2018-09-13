@@ -1,0 +1,44 @@
+.process{
+	padding: 100px 0;
+
+	.process_us{
+		h1{
+			text-align: center;
+		}
+		p{
+			text-align: center;
+		}
+	}
+	.procss_all{
+		position: relative;
+		left: 100px;
+
+		.process_icon{
+			float: left; 
+			position: relative;
+			span{
+				position: absolute;
+				right: 30px;
+				top: 4px;
+				border: 2px solid $qara;
+				height: 60px;
+				width: 60px;
+				text-align: center;
+				border-radius: 40px;
+				i{
+					text-align: center;
+					padding-top: 20px;
+				}
+			}
+		}
+
+		.procss_plan{
+			li{
+				a{
+					text-decoration: none;
+					color: $qara;
+				}
+			}
+		}
+	}
+}

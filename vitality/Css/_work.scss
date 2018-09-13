@@ -1,0 +1,58 @@
+.work{
+	padding: 100px 0px;
+	text-align: center;
+	background-color: $grey;
+}
+
+.work_girl{
+	position: relative;
+	background-image: url(../Img/bg-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+
+	.comp{
+		background-image: url(../Img/macbook.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 350px;
+		margin: 200px 0px;
+
+		.screen{
+			width: 418px;
+			position: absolute;
+			left: 16%;
+			top: 31%;
+			z-index: 0;
+			img{
+				height: auto;
+				width: 100%;
+			}
+		}
+	}
+
+	.work_text{
+		position: absolute;
+		bottom: 40%;
+		left: 30%;
+		h4{
+			color:$ag;
+		}
+		p{
+			font-size: 20px;
+			color: $ag;
+		}
+
+		a{
+			text-decoration: none;
+			color: #fff;
+			padding: 7px 40px;
+			border: 1px solid #fff;
+			transition:all 0.2s ease-in-out;
+			&:hover{
+				color:red;
+				background-color: $ag;
+			}
+		}
+	}
+}

@@ -1,0 +1,80 @@
+@import '_spesal.scss';
+@import '_color.scss';
+@import '_About.scss';
+@import '_Team.scss';
+@import '_PROCESS.scss';
+@import '_work.scss';
+
+
+
+
+header{
+	background-attachment: fixed;
+	background-image: url(../Img/bg-header.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	height:500px;
+	.nav{
+		position: fixed;
+		margin: 0 44px;
+				/* float: right; */
+				top: 0;
+				right: 0;
+				left: 100px;
+				z-index: 1030;
+				display: flex;
+				.logo{
+					margin:20px 0;
+					img{
+						height: 50px;
+					}
+				}
+
+				ul{
+					list-style-type: none;
+					li{
+						margin:40px 0;
+						display: inline-block;
+						a{
+							color: $ag;
+							padding: 15px;
+							transition:all 0.5s ease-in-out;
+							&:hover{
+								color: rgba(255, 255, 255, 0.5);
+								text-decoration: none;
+							}
+						}
+					}
+				}
+
+			}
+
+			
+
+			.cow{
+				margin:0 40%;
+				color:$ag;
+				p{
+					font-size: 25px;
+				}
+				hr{
+					border-color: $rozovi;
+				}
+				img{
+					height: 200px;
+					
+				}	
+			}
+
+			.next{
+				span{
+					margin: 45%;
+					i{
+						background-color: transparent;
+						color: $ag;
+						font-size: 30px;
+					}
+				}
+
+			}
+		}
